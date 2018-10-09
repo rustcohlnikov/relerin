@@ -1,6 +1,10 @@
-# reler.in
+# RL/RN
 
-> Entry point
+Live at [reler.in](https://reler.in)
+
+Built with [Nuxt.js](https://github.com/nuxt/nuxt.js)
+
+Deployed with [now](zeit.co)
 
 ## Setup
 
@@ -17,6 +21,7 @@ $ npm start
 
 # generate static project
 $ npm run generate
-```
 
-Built with [Nuxt.js](https://github.com/nuxt/nuxt.js).
+# deploy
+$ now alias reler.in
+```
