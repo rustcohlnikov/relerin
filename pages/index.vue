@@ -1,10 +1,10 @@
 <template>
   <section class="heading">
-    <div class="logo">Relerin</div>    
+    <div class="logo">R.</div>    
     <ul class="navigation">
-      <li class="navigation__item"><a class="navigation__link" href="http://read.reler.in">Read</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="http://view.reler.in">View</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="/contact">Contact</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="//github.com/rustcohlnikov">Code</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="//www.instagram.com/relerin/">Photography</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="//linkedin.com/in/nazymjumadilova/">More</a></li>
     </ul>
   </section>
 </template>
