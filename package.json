@@ -13,7 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^2.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
@@ -23,6 +23,6 @@
     "eslint-plugin-vue": "^4.0.0"
   },
   "engines": {
-    "node":"9.11.1"
+    "node": "9.11.1"
   }
 }
