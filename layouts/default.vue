@@ -5,7 +5,7 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CZeyada&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,500,600');
 
 #__nuxt, #__layout {
   height: 100%;
@@ -18,55 +18,23 @@ html {
 
 body {
   margin: 0;
+  color: #2d2d2d;
 }
 
 a {
   background-color: transparent;
 }
+
+p {
+  padding: 0;
+  margin: .5rem 0;
+}
+
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 1rem;
-}
-.heading {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-weight: 400;
 }
 
-.logo {
-  color: #313131;
-  font-size: 8rem;
-  font-family: 'Zeyada', sans;
-  line-height: .5;
-  user-select: none;
-}
-
-.navigation {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-.navigation__item {
-  display: inline-block;
-  list-style: none;
-  margin-right: .7rem;
-}
-
-.navigation__link {
-  text-decoration: none;
-  color: #a2a4b3;
-  transition: .5s;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .15rem;
-}
-
-.navigation__link:hover {
-  color: #777884;
-}
 </style>
